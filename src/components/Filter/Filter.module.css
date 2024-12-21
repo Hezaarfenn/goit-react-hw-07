@@ -1,0 +1,18 @@
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.filterInput {
+  width: 335px;
+  padding: 8px;
+  border: 1px solid #afabab;
+  border-radius: 4px;
+}
+
+.filterInput:focus {
+  outline: 1px solid #2805f0;
+}
